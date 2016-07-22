@@ -1,7 +1,6 @@
 module.exports = function(grunt) {
   'use strict';
 
-    grunt.loadNpmTasks('grunt-notify');
     grunt.initConfig({
 
       jshint: {
@@ -108,14 +107,6 @@ module.exports = function(grunt) {
               'karma-phantomjs-launcher'
             ]
           }
-        }
-      },
-
-      notify_hooks: {
-        options: {
-          enabled: true,
-          max_jshint_notifications: 5, // maximum number of notifications from jshint output
-          duration: 1 // the duration of notification in seconds, for `notify-send only
         }
       },
 
