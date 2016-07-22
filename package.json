@@ -1,0 +1,35 @@
+{
+  "name": "popeye",
+  "version": "0.1.0",
+  "description": "An app to locate the nearest Popeyes",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Grosso",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "angular-mocks": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-karma": "^2.0.0",
+    "karma": "^1.1.1",
+    "karma-chai": "^0.1.0",
+    "karma-coverage": "^1.1.0",
+    "karma-mocha": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "load-grunt-tasks": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
